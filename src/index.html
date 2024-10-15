@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="style.css">
+    <title>E-Commerce-Site</title>
+</head>
+<body class="body bg-slate-200">
+    <form id=form>
+        <div class=" nav-div flex flex-col w-full mx-auto">
+            <nav class="nav-links flex shadow-xl p-4 flex-wrap justify-between w-full">
+                <div class="flex items-center gap-2"> 
+                    <img src="images/logo.jpg" alt="logo" class="w-8 h-8 rounded-2xl">
+                    <h1 class="logo font-extrabold text-blue-800">DRJSingh</h1>
+                </div>
+
+                <ul class="nav-links flex  flex-wrap gap-5 ml-14 justify-center">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li ><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="icons flex gap-5 ml-20">
+                    <i class="fas fa-search"></i>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+            </nav>
+        </div>
+        <div class="header bg-teal-300 p-10 w-full mx-auto shadow-xl  flex flex-wrap justify-center">
+            <section class=" text-center">
+                <h1>CART</h1>
+                <p>Home > Cart</p>
+            </section>
+        </div>
+        <div class="main flex flex-wrap  shadow-2xl   bg-white p-5 max-auto">
+            <main class="cart-item flex lg:flex-row flex-col w-full">
+                <section class="cart-content  flex-grow">
+                    <div class="cart-content flex-col">
+
+                    </div>
+
+                </section>
+                <aside  class="ltr:order-first ml-1 rounded-xl p-12 w-auto shadow-lg mt-3">
+                    <h2>Cart Totals</h2>
+                    <div class="totals m-2">
+                        <p id="Sub-Totals">Sub-Totals: ₹0.00</p>
+                        <p id="Totals">Totals: ₹0.00</p>
+                    </div>
+                    <button type="submit" class="checkout shadow-lg">Check Out</button>
+                </aside>
+            </main>
+        </div>
+
+        
+
+        <div class="footer shadow-xl p-4 flex flex-wrap mx-auto w-full justify-center">
+            <footer class="service-icons flex flex-wrap">
+                <div class="items-center mr-4">
+                    <i class="fas fa-trophy mr-2"></i>High Quality
+                </div>
+                <div class="items-center mr-4">
+                    <i class="fas fa-shield-alt mr-2"></i>Warranty
+                </div>
+                <div class="items-center mr-4">
+                    <i class="fas fa-box mr-2"></i>Free Shipping
+                </div>
+                <div class="items-center mr-4">
+                    <i class="fas fa-headset mr-2"></i>24/7 Support
+                </div>
+            </footer>
+        </div>
+    </form>  
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+.logo{
+    color: black;
+    font-style: italic;
+}
+.nav-links{
+    font-weight: 500;
+}
+.nav-links li :hover{
+    color:aliceblue;
+    padding: 1px;
+}
+.icons i:hover{
+    color: aliceblue;
+}
+section h1{
+    font-weight:bolder;
+    font-size:xx-large;
+
+}
+
+.nav-div {
+    background-image: url("./images/soft-gradient-solid-color-gradient-hd-wallpaper-preview.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+aside button{
+    padding: 10px;
+    background-color: brown;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 10px 5px rgba(195, 18, 44, 0.3);
+    margin-top: 5px;
+    color:white
+}
+
+aside button:hover{
+    background-color: green;
+
+}
+aside h2{
+    font-weight: 700;
+    font-size: x-large;
+}
+.cart-content .product-info img {
+    width: 50px ;
+    height: 50px ;
+    object-fit: cover; /* Ensures the image is not stretched */
+}
+
+.trash i:hover{
+    color:red;
+}
+
+.service-icons div:hover{
+    color: aliceblue;
+}
+
+.header h1:hover{
+    color: aliceblue;
+
+}
+
+.header{
+    background-image: url(images/isometric-graphics-of-an-online-shopping-shopping-cart-picture-image_3418223.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header p{
+    color: ;
+}
+
+.main{
+    background-image:url(images/);
+    background-position: center;
+    background-size: cover;
+}
+
+.footer{
+    background-image: url("./images/soft-gradient-solid-color-gradient-hd-wallpaper-preview.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
