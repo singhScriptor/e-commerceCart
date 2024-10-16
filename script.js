@@ -1,5 +1,11 @@
 document.addEventListener('DOMContentLoaded',loaded);
 
+//checkout function 
+let button=document.getElementById("checkout")
+button.addEventListener('click',function(){
+    checkOut()
+})
+
 fetch('https://cdn.shopify.com/s/files/1/0883/2188/4479/files/apiCartData.json?v=1728384889')
 .then(res=> res.json())
 .then(data=>{
@@ -106,9 +112,19 @@ function loaded(){
 
 function checkOut() {
     document.body.style.backgroundColor = 'pink';
+    document.body.style.backgroundImage = "url('./images/Thank-You-PowerPoint-Template.jpg')"
+    document.body.style.backgroundSize="cover"
+    document.body.style.backgroundRepeat="no-repeat"
+
+    document.body.style.display = 'flex';
+    document.body.style.flexDirection = 'column'; // Stack elements vertically
+    document.body.style.justifyContent = 'center'; // Center items vertically
+    document.body.style.alignItems = 'center'; // Center items horizontally
+    document.body.style.height = '100vh'; // Full viewport height
+
     document.body.innerHTML = `
-    <div class="greeting" style="color: white; text-align: center; margin-top: 50px; font-size: 24px;">
-        <h1>Thank you for shopping!</h1>
+    <div class="greeting ">
+        <h1 class="text-center text-white font-bold text-8xl italic text-7xl p-16"><i class="fas fa-handshake"></i>Thank you for shopping!</h1>
     </div>`;
 
 }
