@@ -6,6 +6,13 @@ Welcome to the E-Commerce Cart project! This web application simulates an online
 
 [here](https://singhscriptor.github.io/e-commerceCart/).
 
+## Clone
+
+```bash
+git clone https://github.com/singhscriptor/e-commerceCart
+
+```
+
 ## Features
 
 - **Dynamic Cart Management**: Users can add items to their cart, update quantities, and see real-time total calculations.
