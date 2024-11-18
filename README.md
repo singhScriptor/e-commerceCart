@@ -4,7 +4,7 @@ Welcome to the E-Commerce Cart project! This web application simulates an online
 
 ## Live Demo
 
-You can view the live demo [here](https://dhirajkr08.github.io/e-commerceCart/).
+[here](https://singhscriptor.github.io/e-commerceCart/).
 
 ## Features
 
